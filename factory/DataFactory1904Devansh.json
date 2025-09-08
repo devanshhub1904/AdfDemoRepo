@@ -1,0 +1,9 @@
+{
+	"name": "DataFactory1904Devansh",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6bde279a-4a6a-4cba-97ac-e24688b396cf",
+		"tenantId": "f6bc6a8c-9261-4bc5-9952-d78174de33d0"
+	}
+}

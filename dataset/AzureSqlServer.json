@@ -1,0 +1,24 @@
+{
+	"name": "AzureSqlServer",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzueDbPractice",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"dsTablename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": {
+				"value": "@dataset().dsTablename",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

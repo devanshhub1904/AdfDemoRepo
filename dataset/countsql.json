@@ -1,0 +1,27 @@
+{
+	"name": "countsql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzueDbPractice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "foldername",
+				"type": "varchar"
+			},
+			{
+				"name": "countfiles",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "countfile"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
