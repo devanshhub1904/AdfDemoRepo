@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DataFactory1904Devansh"
+		},
+		"AzueDbPractice_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"LocalBlob_connectionString": {
+			"value": ""
+		},
+		"AzueDbPractice_properties_typeProperties_server": {
+			"value": "dataengieer.database.windows.net"
+		},
+		"AzueDbPractice_properties_typeProperties_database": {
+			"value": "Practice"
+		},
+		"AzueDbPractice_properties_typeProperties_userName": {
+			"value": "DataFactory1904Devansh"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datalakestorage1904.dfs.core.windows.net/"
+		}
+	}
+}
